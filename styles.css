@@ -1,0 +1,29 @@
+
+.inner{
+  background-color:white;
+  border-width:5px;
+  border-style:solid;
+ border-color:green;
+  
+  
+}
+.para{
+	background-color:orange;
+		
+}
+
+.inner1{
+  background-color:white;
+  border-width:1rem;
+  border-style:solid;
+ border-color:green;
+  
+}
+.inner2{
+  background-color:white;
+  border-width:1rem;
+  border-style:solid;
+ border-color:green;
+  
+  
+}
