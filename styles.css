@@ -1,0 +1,19 @@
+
+.inner{
+   border:5px solid green;
+  
+}
+.para{
+	background-color:orange;
+		
+}
+.color{
+	color:red;
+}
+.inner1{
+  border:1rem solid green;  
+}
+.inner2{
+  background-color:white;
+   border:1rem solid green; 
+}
