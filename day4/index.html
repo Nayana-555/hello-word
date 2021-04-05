@@ -1,43 +1,42 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/stylee.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>trillo &mdash; Your all-in-one booking app</title>
-    </head>
-    <body>
-        <div class="container">
-            <header class="header">
-                <img src="img/logo.png" alt="trillo logo" class="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <form action="#" class="search">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+  
+  <div class="container">
+  <header class="header">
+          <div id="box1" class="box"></div>
+		  <img src="img/logo.png" class="img">
+		  <form action="#" class="search">
                     <input type="text" class="search__input" placeholder="Search hotels">
-                    <button class="search__button">
-                        <svg class="search__icon">
-                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                        </svg>
-                    </button>
-                </form>
-
-                <nav class="user-nav">
+                     <span class="fa fa-search"></span>		
+           </form>
+		   <nav class="user-nav">
                     <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
-                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-                        </svg>
                         <span class="user-nav__notification">7</span>
+						<span class="fa fa-bookmark"></span>
                     </div>
                     <div class="user-nav__icon-box">
-                        <svg class="user-nav__icon">
-                            <use xlink:href="img/sprite.svg#icon-chat"></use>
-                        </svg>
                         <span class="user-nav__notification">13</span>
+						<span class="fa fa-comment"></span>
                     </div>
                     <div class="user-nav__user">
                         <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
@@ -45,40 +44,36 @@
                     </div>
                 </nav>
             </header>
-
-
+			
+			
+			
             <div class="content">
                 <nav class="sidebar">
                     <ul class="side-nav">
                         <li class="side-nav__item side-nav__item--active">
                             <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-home"></use>
-                                </svg>
+                                <span class="fa fa-home"></span>
                                 <span>Hotel</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
                             <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
-                                </svg>
+                                <span class="fa fa-plane"></span>
+                                
                                 <span>Flight</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
                             <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-key"></use>
-                                </svg>
+                                <span class="fa fa-key"></span>
+                                  
                                 <span>Car rental</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
                             <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/sprite.svg#icon-map"></use>
-                                </svg>
+                                <span class="fa fa-map"></span>
+                              
                                 <span>Tours</span>
                             </a>
                         </li>
@@ -89,9 +84,8 @@
                     </div>
                 </nav>
 
-
-
-                <main class="hotel-view">
+		
+		<main class="hotel-view">
                     <div class="gallery">
                         <figure class="gallery__item">
                             <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
@@ -110,27 +104,22 @@
                         </h1>
 
                         <div class="overview__stars">
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star"></use>
-                            </svg>
+						<span class="fa fa-star"overview__icon-star></span>
+												<span class="fa fa-star"></span>
+
+						<span class="fa fa-star"></span>
+
+						<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+
+						<span class="fa fa-star"></span>
+
                         </div>
 
                         <div class="overview__location">
-                            <svg class="overview__icon-location">
-                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-                            </svg>
+												<span class="fa fa-location-pin"></span>
+
+                         
                             <button class="btn-inline">Albufeira, Portugal</button>
                         </div>
 
@@ -139,8 +128,7 @@
                             <div class="overview__rating-count">429 votes</div>
                         </div>
                     </div>
-
-                    <div class="detail">
+					<div class="detail">
                         <div class="description">
                             <p class="paragraph">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
@@ -170,8 +158,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <figure class="user-reviews">
+						                      <figure class="user-reviews">
                             <figure class="review">
                                 <blockquote class="review__text">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
@@ -209,7 +196,7 @@
                             </h2>
                             <button class="btn">
                                 <span class="btn__visible">Book now</span>
-                                <span class="btn__invisible">Only 4 rooms left</span>
+                               
                             </button>
                         </div>
 
